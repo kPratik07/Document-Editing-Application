@@ -1,0 +1,9 @@
+/* Add theme-related styles here */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+}
+
+body {
+  color: var(--primary-color);
+}
