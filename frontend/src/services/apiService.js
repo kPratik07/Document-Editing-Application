@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // Adjust to your back end URL
+  baseURL: "http://localhost:5000/api",
 });
 
 export const fetchDocuments = () => api.get("/documents");
